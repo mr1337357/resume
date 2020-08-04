@@ -1,0 +1,151 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wilson Resume/CV
+% XeLaTeX Template
+% Version 1.0 (22/1/2015)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size
+
+\input{structure.tex} % Include the file specifying document layout
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Douglas Concors -- Résumé} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \> 1055 Camino Ciego,\\ % Address line 1
+\> Vista, CA 92084 \\ % Address line 2
+%{\bf Date of Birth} \> 7$^{th}$ September 1979 \\ % Date of birth 
+%{\bf Nationality} \> British % Nationality
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+%{\bf Home Phone} \> +0 (000) 111 1111 \\ % Home phone
+{\bf Mobile Phone} \> +1 (760) 815 9616 \\ % Mobile phone
+{\bf Email} \> mr1337357@gmail.com \\ % Email address
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROFILE
+%----------------------------------------------------------------------------------------
+
+\section{Personal Profile}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum nec dolor sed sagittis. Cras justo lorem, volutpat mattis lacus vel, consequat aliquam quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer blandit, massa at tincidunt ornare, dolor magna interdum felis, ac blandit urna neque in turpis.
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment History}
+
+\job
+{Jan 2014 -}{Present}
+{Vulcan Wireless INC, 2218 Faraday Ave \#110, Carlsbad, CA 92084}
+{http://www.vulcanwireless.com}
+{Embedded Software Engineer}
+{Wrote linux drivers for interfacing with custom IP cores in FPGA, configured build scripts to generate boot images for radio hardware.\\
+\rule{0mm}{5mm}\textbf{Technologies:} Xilinx Vivado, Xilinx SDK, GNU MAKE, Python, C, Bash, VHDL}
+
+%------------------------------------------------
+
+\job
+{Mar 2013 -}{Jan 2014}
+{Staples INC}
+{http://www.staples.com}
+{Easytech Associate}
+{Sold and repaired electronic devices, interfaced with customers.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\tabbedblock{
+\bf{2014 - 2016} \> BS in Computer Science - California State University at San Marcos \\[5pt]
+}
+
+%------------------------------------------------
+
+\tabbedblock{
+\bf{2013-2014} \> Mira Costa Colege\\[5pt]
+}
+
+
+%----------------------------------------------------------------------------------------
+%	IT/COMPUTING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Software Engineering Skills}
+
+\skillgroup{Programming Languages}
+{
+\textit{C} - Microcontrollers (MSP430,AVR),Linux drivers, threading, and networking\\
+\textit{VHDL}\\
+\textit{Python} - PySerial,Sockets
+}
+
+%------------------------------------------------
+
+\skillgroup{Miscellaneous}
+{
+\textit{git} - source version control\\
+\textit{Soldering} - can solder 0804 SMT and QFP\\
+\textit{Microsoft Office} - Word, Excel, etc
+}
+
+%----------------------------------------------------------------------------------------
+%	REFEREE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Referees}
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing}
+\hspace{2.75cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Name} \> name \\ % Referee name
+{\bf Company} \> company \\ % Referee company
+{\bf Position} \> job \\ % Referee job title 
+{\bf Contact} \> \href{mailto:em@il}{em@il} % Referee contact information
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing}
+\hspace{2.75cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Name} \> name\\ % Referee name
+{\bf Company} \> company \\ % Referee company
+{\bf Position} \> job \\ % Referee job title 
+{\bf Contact} \> \href{mailto:em@il}{em@il} % Referee contact information
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
